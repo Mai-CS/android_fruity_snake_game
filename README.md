@@ -48,15 +48,16 @@ The game is based on 3 TAGS:
 <li>Obstacle - such as walls, trees, etc.</li>
 <li>Snake - for every newly created part of snake</li>
 </ul>
-At first, the snake is composed of only 3 untagged spheres. The snake moves according to touch/swiping position.<br>
 
-If the snake hits "Fruit", The score is increased by 1 and a new sphere is appended to the snake and is tagged by "Snake" using method <code>AddSnakePart()</code>. Also, a new "Fruit" is instantiated at random position on playground using method <code>RandomPointInBox()</code>.<br>
+At first, the snake is composed of only 3 untagged spheres. The snake moves according to touch/swiping position.</br>
 
-And if the snake hits "Obstacle" or any of its new parts tagged "Snake", <code>Gameover()</code> coroutine is called.<br>
+If the snake hits "Fruit", The score is increased by 1 and a new sphere is appended to the snake and is tagged by "Snake" using method <code>AddSnakePart()</code>. Also, a new "Fruit" is instantiated at random position on playground using method <code>RandomPointInBox()</code>.</br>
 
-The player goes to next level when the score becomes 10 using method <code>NextLevel()</code>.<br>
+And if the snake hits "Obstacle" or any of its new parts tagged "Snake", <code>Gameover()</code> coroutine is called.</br>
 
-There is a loading scene before each level. This scene loads the level number according to <code>public static int level</code>
+The player goes to next level when the score becomes 10 using method <code>NextLevel()</code>.</br>
+
+There is a loading scene before each level. This scene loads the level number according to <code>public static int level</code></br>
 
 # License
 <pre><code>
