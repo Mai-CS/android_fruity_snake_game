@@ -1,5 +1,16 @@
-# Documentation
-SOON!
+# Description
+3D Snake game in Unity3D. The key game components are:<br>
+<ul>
+<li>snake</li>
+<li>game playground border</li>
+<li>fruits</li>
+<li>obstacles</li>
+</ul>
+Snake is 3 pieces long at start of a game and starts moving into random direction upon game
+start. Snake grows 1 piece for every fruit eaten. After the snake eats a fruit a new fruit appears
+on random location. User can control the direction of a snake by pressing/swiping
+left/right/up/down. The game is over when the snake hits the border, an obstacle or itself. Think
+of this game running on a smartphone device
 
 # Screenshots
  <table>
@@ -27,7 +38,7 @@ SOON!
 # Tools & Technologies
 Unity 5.6.1, Android SDK
 
-# Download APK
+# Download
 <a href="https://drive.google.com/open?id=0ByN8UVrN9463S3RlUG5aTkdqbHM"><img src="http://www.apkdisc.com/style/apkdiscad2.png" width="150" height="80" /></a>
 
 # License
