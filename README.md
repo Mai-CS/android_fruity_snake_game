@@ -41,6 +41,23 @@ Unity 5.6.1, Android SDK
 # Download
 <a href="https://drive.google.com/open?id=0ByN8UVrN9463S3RlUG5aTkdqbHM"><img src="http://www.apkdisc.com/style/apkdiscad2.png" width="150" height="80" /></a>
 
+# Brief Technical Design Document
+The game is based on 3 TAGS:
+<ul>
+<li>Fruit - such as apples or bananas</li>
+<li>Obstacle - such as walls, trees, etc.</li>
+<li>Snake - for every newly created part of snake</li>
+</ul>
+At first, the snake is composed of only 3 untagged spheres. The snake moves according to touch/swiping position.<br>
+
+If the snake hits "Fruit", The score is increased by 1 and a new sphere is appended to the snake and is tagged by "Snake" using method <code>AddSnakePart()</code>. Also, a new "Fruit" is instantiated at random position on playground using method <code>RandomPointInBox()</code>.<br>
+
+And if the snake hits "Obstacle" or any of its new parts tagged "Snake", <code>Gameover()</code> coroutine is called.<br>
+
+The player goes to next level when the score becomes 10 using method <code>NextLevel()</code>.<br>
+
+There is a loading scene before each level. This scene loads the level number according to <code>public static int level</code>
+
 # License
 <pre><code>
    Copyright 2017 Mai Ahmed
