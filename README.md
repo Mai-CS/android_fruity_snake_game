@@ -15,13 +15,13 @@ of this game running on a smartphone device
 # Screenshots
  <table>
   <tr>
-    <td><img src = "https://s10.postimg.org/99sv6619l/screener_1499435304662.png"/></td>
-    <td><img src = "https://s10.postimg.org/igb5tg6i1/screener_1499435276551.png"/></td>
-    <td><img src = "https://s10.postimg.org/k0ghruew9/screener_1499436069715.png"/></td>
+    <td><img src = "https://image.ibb.co/gGemDT/screener_1499435276551.png"/></td>
+    <td><img src = "https://image.ibb.co/gkhHL8/screener_1499435304662.png"/></td>
+    <td><img src = "https://image.ibb.co/d3J4YT/screener_1499436242656.png"/></td>
   </tr>
   <tr>
-    <td><img src = "https://s10.postimg.org/ca9pmpckp/screener_1499436213969.png"/></td>
-    <td><img src = "https://s10.postimg.org/nlcdb2jft/screener_1499436242656.png"/></td>
+    <td><img src = "https://image.ibb.co/hHEBDT/screener_1499436213969.png"/></td>
+    <td><img src = "https://image.ibb.co/j7Bu08/screener_1499436069715.png"/></td>
   </tr>
 </table> 
 
