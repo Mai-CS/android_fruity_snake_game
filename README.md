@@ -39,7 +39,7 @@ of this game running on a smartphone device
 Unity 5.6.1, Android SDK
 
 # Download
-<a href="https://drive.google.com/open?id=0ByN8UVrN9463S3RlUG5aTkdqbHM"><img src="https://image.ibb.co/h45q7o/android_download.png" width="150" height="80" /></a>
+<a href="https://drive.google.com/open?id=0ByN8UVrN9463S3RlUG5aTkdqbHM"><img src="https://image.ibb.co/h45q7o/android_download.png" width="25%" height="25%" /></a>
 
 # Brief Technical Design Document
 The game is based on 3 TAGS:
